@@ -3,6 +3,8 @@ const withBundleAnalyzer = require("@next/bundle-analyzer")({
   enabled: process.env.ANALYZE === "true",
 });
 
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
+
 /**
  * @type {import('next').NextConfig}
  */
@@ -10,6 +12,12 @@ const config = {
   output: "export",
   reactStrictMode: false,
   productionBrowserSourceMaps: true,
+  ...(basePath
+    ? {
+        basePath,
+        assetPrefix: basePath,
+      }
+    : {}),
   compiler: {
     styledComponents: true,
   },
