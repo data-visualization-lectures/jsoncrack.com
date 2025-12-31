@@ -19,7 +19,14 @@ const JSONSchemaTool = () => {
   const [jsonSchema, setJsonSchema] = React.useState("");
 
   React.useEffect(() => {
-    (monacoRef.current?.languages.json as any).jsonDefaults.setDiagnosticsOptions({
+    const monaco = monacoRef.current;
+    if (!monaco) return;
+
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    const jsonLang = (monaco.languages as any).json;
+    if (!jsonLang) return;
+
+    jsonLang.jsonDefaults.setDiagnosticsOptions({
       validate: true,
       allowComments: true,
       enableSchemaRequest: true,

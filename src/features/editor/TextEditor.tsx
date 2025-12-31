@@ -32,7 +32,13 @@ const TextEditor = () => {
   const fileType = useFile(state => state.format);
 
   React.useEffect(() => {
-    (monaco?.languages.json as any).jsonDefaults.setDiagnosticsOptions({
+    if (!monaco) return;
+
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    const jsonLang = (monaco.languages as any).json;
+    if (!jsonLang) return;
+
+    jsonLang.jsonDefaults.setDiagnosticsOptions({
       validate: true,
       allowComments: true,
       enableSchemaRequest: true,
@@ -46,7 +52,7 @@ const TextEditor = () => {
         ],
       }),
     });
-  }, [jsonSchema, (monaco?.languages.json as any)?.jsonDefaults]);
+  }, [jsonSchema, monaco]);
 
   React.useEffect(() => {
     const beforeunload = (e: BeforeUnloadEvent) => {
