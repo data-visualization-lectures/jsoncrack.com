@@ -107,7 +107,8 @@ export const HeroSection = () => {
         <Stack flex="1" miw={250} mx="auto" align="center">
           <StyledHeroTitle>JSONをインタラクティブなグラフで可視化</StyledHeroTitle>
           <StyledHeroText>
-            JSONを<strong>可視化</strong>・<strong>整形</strong>・<strong>探索</strong>するための最高のオンラインJSONビューア。
+            JSONを<strong>可視化</strong>・<strong>整形</strong>・<strong>探索</strong>
+            するための最高のオンラインJSONビューア。
           </StyledHeroText>
 
           <Flex gap="xs" wrap="wrap" justify="center" hiddenFrom="xs">

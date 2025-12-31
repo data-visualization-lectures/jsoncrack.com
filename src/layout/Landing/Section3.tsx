@@ -80,7 +80,8 @@ export const Section3 = () => {
             複数のフォーマットを可視化・変換
           </Title>
           <Text my="md" c="gray.7" fz={16} maw={510}>
-            JSON CrackはTOML、CSV、YAML、XMLなどのフォーマットをサポートしており、データの種類に関わらず可視化を容易にします。
+            JSON
+            CrackはTOML、CSV、YAML、XMLなどのフォーマットをサポートしており、データの種類に関わらず可視化を容易にします。
           </Text>
           <List
             fz={{

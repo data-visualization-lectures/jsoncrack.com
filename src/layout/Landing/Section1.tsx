@@ -70,7 +70,8 @@ export const Section1 = () => {
         fz={{ base: 16, sm: 18 }}
         w={{ base: "100%", md: "600" }}
       >
-        JSON Crackは、複雑で乱雑なデータの混沌を解消し、複雑なものをシンプルで理解しやすく表示します。
+        JSON
+        Crackは、複雑で乱雑なデータの混沌を解消し、複雑なものをシンプルで理解しやすく表示します。
       </Title>
       <SimpleGrid
         cols={{

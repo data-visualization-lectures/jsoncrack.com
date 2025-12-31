@@ -40,14 +40,14 @@ const features: FeatureItem[] = [
   },
   {
     title: "JSONフォーマッタ / バリデータ",
-    description:
-      "JSONデータを整形・美化して読みやすくします。JSON、YAML、CSVを検証します。",
+    description: "JSONデータを整形・美化して読みやすくします。JSON、YAML、CSVを検証します。",
     icon: <MdOutlineFormatIndentIncrease size={20} />,
     color: "green",
   },
   {
     title: "コード/型定義の生成",
-    description: "TypeScriptインターフェース、Golang構造体、Rust serde、JSON Schemaなどを生成します。",
+    description:
+      "TypeScriptインターフェース、Golang構造体、Rust serde、JSON Schemaなどを生成します。",
     icon: <MdOutlineGeneratingTokens size={20} />,
     color: "grape",
   },
@@ -73,7 +73,8 @@ const features: FeatureItem[] = [
   },
   {
     title: "セキュア",
-    description: "あなたのデータが当社のサーバーに保存されることはありません。すべてはデバイス上で完結します。",
+    description:
+      "あなたのデータが当社のサーバーに保存されることはありません。すべてはデバイス上で完結します。",
     icon: <IoShieldCheckmark size={20} />,
     color: "gray",
   },

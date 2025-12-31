@@ -10,7 +10,7 @@ const StyledNavbarWrapper = styled.div`
   transition: background 0.2s ease-in-out;
 `;
 
-const StyledMenuItem = styled(Menu.Item) <MenuItemProps & any>`
+const StyledMenuItem = styled(Menu.Item)<MenuItemProps & any>`
   color: black;
 
   &[data-hovered] {
