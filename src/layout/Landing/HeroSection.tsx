@@ -105,10 +105,9 @@ export const HeroSection = () => {
     <StyledHeroSection>
       <StyledHeroSectionBody>
         <Stack flex="1" miw={250} mx="auto" align="center">
-          <StyledHeroTitle>Visualize JSON into interactive graphs</StyledHeroTitle>
+          <StyledHeroTitle>JSONをインタラクティブなグラフで可視化</StyledHeroTitle>
           <StyledHeroText>
-            The best online JSON viewer to <strong>visualize</strong>, <strong>format</strong> and{" "}
-            <strong>explore</strong>.
+            JSONを<strong>可視化</strong>・<strong>整形</strong>・<strong>探索</strong>するための最高のオンラインJSONビューア。
           </StyledHeroText>
 
           <Flex gap="xs" wrap="wrap" justify="center" hiddenFrom="xs">
@@ -122,7 +121,7 @@ export const HeroSection = () => {
               fw="500"
               mt="sm"
             >
-              Go to Editor
+              エディタへ移動
             </Button>
           </Flex>
           <Flex gap="lg" wrap="wrap" justify="center" visibleFrom="xs">
@@ -135,7 +134,7 @@ export const HeroSection = () => {
               rightSection={<FaChevronRight />}
               mt="sm"
             >
-              Go to Editor
+              エディタへ移動
             </Button>
           </Flex>
         </Stack>

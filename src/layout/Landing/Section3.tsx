@@ -77,11 +77,10 @@ export const Section3 = () => {
             order={2}
             c="gray.9"
           >
-            Visualize and convert to multiple formats
+            複数のフォーマットを可視化・変換
           </Title>
           <Text my="md" c="gray.7" fz={16} maw={510}>
-            JSON Crack supports formats like TOML, CSV, YAML, and XML, making it easier to visualize
-            your data, no matter the type.
+            JSON CrackはTOML、CSV、YAML、XMLなどのフォーマットをサポートしており、データの種類に関わらず可視化を容易にします。
           </Text>
           <List
             fz={{
@@ -94,10 +93,10 @@ export const Section3 = () => {
             icon={<LuBadgeCheck size="20" />}
           >
             <SimpleGrid w="fit-content" cols={2}>
-              <List.Item>JSON to CSV</List.Item>
-              <List.Item>YAML to JSON</List.Item>
-              <List.Item>XML to JSON</List.Item>
-              <List.Item>and more...</List.Item>
+              <List.Item>JSONをCSVへ</List.Item>
+              <List.Item>YAMLをJSONへ</List.Item>
+              <List.Item>XMLをJSONへ</List.Item>
+              <List.Item>その他...</List.Item>
             </SimpleGrid>
           </List>
           <Button
@@ -109,7 +108,7 @@ export const Section3 = () => {
             w="fit-content"
             mt="sm"
           >
-            Open Converter
+            コンバータを開く
           </Button>
         </Stack>
       </Flex>

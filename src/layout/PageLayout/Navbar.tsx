@@ -10,7 +10,7 @@ const StyledNavbarWrapper = styled.div`
   transition: background 0.2s ease-in-out;
 `;
 
-const StyledMenuItem = styled(Menu.Item)<MenuItemProps & any>`
+const StyledMenuItem = styled(Menu.Item) <MenuItemProps & any>`
   color: black;
 
   &[data-hovered] {
@@ -88,7 +88,7 @@ export const Navbar = () => {
             size="md"
             radius="md"
           >
-            Embed
+            埋め込み
           </Button>
           <Button
             component="a"
@@ -100,7 +100,7 @@ export const Navbar = () => {
             radius="md"
             rel="noopener"
           >
-            Open Source
+            オープンソース
           </Button>
           <Menu withArrow shadow="sm">
             <Menu.Target>
@@ -112,27 +112,27 @@ export const Navbar = () => {
                 radius="md"
                 rightSection={<LuChevronDown />}
               >
-                Tools
+                ツール
               </Button>
             </Menu.Target>
             <Menu.Dropdown maw={300} bg="white">
               <StyledMenuItem component={Link} prefetch={false} href="/converter/json-to-yaml">
                 <Stack gap="2">
                   <Text c="black" size="sm" fw={600}>
-                    Converter
+                    コンバータ
                   </Text>
                   <Text size="xs" c="gray.6" lineClamp={2}>
-                    Convert JSON to YAML, CSV to JSON, YAML to XML, and more.
+                    JSONをYAMLへ、CSVをJSONへ、YAMLをXMLへなど変換。
                   </Text>
                 </Stack>
               </StyledMenuItem>
               <StyledMenuItem component={Link} prefetch={false} href="/type/json-to-rust">
                 <Stack gap="2">
                   <Text c="black" size="sm" fw={600}>
-                    Generate Types
+                    型定義生成
                   </Text>
                   <Text size="xs" c="gray.6" lineClamp={2}>
-                    Generate TypeScript types, Golang structs, Rust, and more.
+                    TypeScriptの型、Golangの構造体、Rustなどを生成。
                   </Text>
                 </Stack>
               </StyledMenuItem>
@@ -142,10 +142,10 @@ export const Navbar = () => {
                     JSON Schema
                   </Text>
                   <Text size="xs" c="gray.6" lineClamp={2}>
-                    Generate JSON schema from JSON data.
+                    JSONデータからJSON Schemaを生成。
                   </Text>
                   <Text size="xs" c="gray.6" lineClamp={2}>
-                    Generate JSON data from JSON schema.
+                    JSON SchemaからJSONデータを生成。
                   </Text>
                 </Stack>
               </StyledMenuItem>
@@ -161,7 +161,7 @@ export const Navbar = () => {
             visibleFrom="sm"
             size="md"
           >
-            Editor
+            エディタ
           </Button>
         </Right>
       </StyledNavbar>

@@ -25,55 +25,55 @@ interface FeatureItem {
 
 const features: FeatureItem[] = [
   {
-    title: "JSON Visualizer",
+    title: "JSONビジュアライザー",
     description:
-      "Transform your data into interactive graphs or trees as you type. Supports JSON, YAML, CSV, XML, and TOML.",
+      "入力と同時にデータをインタラクティブなグラフやツリーに変換します。JSON、YAML、CSV、XML、TOMLをサポート。",
     icon: <FaBolt size={20} />,
     color: "yellow",
   },
   {
-    title: "Convert Data",
+    title: "データ変換",
     description:
-      "Convert JSON to CSV, YAML to JSON, XML to JSON, and more. Our JSON converter supports multiple formats for easy data exchange.",
+      "JSONをCSVへ、YAMLをJSONへ、XMLをJSONへなど。当社のJSONコンバータは、データ交換を容易にするために複数のフォーマットをサポートしています。",
     icon: <TbTransformFilled size={20} />,
     color: "orange",
   },
   {
-    title: "JSON Formatter and JSON Validator",
+    title: "JSONフォーマッタ / バリデータ",
     description:
-      "Format and beautify your JSON data to make it more readable. Validate JSON, YAML, and CSV.",
+      "JSONデータを整形・美化して読みやすくします。JSON、YAML、CSVを検証します。",
     icon: <MdOutlineFormatIndentIncrease size={20} />,
     color: "green",
   },
   {
-    title: "Generate Code/Types",
-    description: "Generate TypeScript interface, Golang structs, Rust serde, JSON Schema and more.",
+    title: "コード/型定義の生成",
+    description: "TypeScriptインターフェース、Golang構造体、Rust serde、JSON Schemaなどを生成します。",
     icon: <MdOutlineGeneratingTokens size={20} />,
     color: "grape",
   },
   {
-    title: "JSON Schema Generator",
+    title: "JSON Schema ジェネレータ",
     description:
-      "Validate JSON Schema, create mock data, and generate JSON Schema from various data formats like JSON, YAML, XML, and CSV.",
+      "JSON Schemaの検証、モックデータの作成、JSON、YAML、XML、CSVなどの様々なデータ形式からのJSON Schema生成。",
     icon: <VscJson size={20} />,
     color: "cyan",
   },
   {
-    title: "Advanced JSON Tools",
-    description: "Decode JWT, randomize data, execute jq (JSON Query), json path commands.",
+    title: "高度なJSONツール",
+    description: "JWTのデコード、データのランダム化、jq (JSON Query)、JSON Pathコマンドの実行。",
     icon: <FaToolbox size={20} />,
     color: "teal.5",
   },
   {
-    title: "Export Image",
+    title: "画像のエクスポート",
     description:
-      "Export image of the graphs as PNG, JPEG, or SVG. Share your data visualization with others.",
+      "グラフの画像をPNG、JPEG、SVGとしてエクスポートします。データの可視化を他の人と共有できます。",
     icon: <IoImages size={20} />,
     color: "blue.4",
   },
   {
-    title: "Secure",
-    description: "Your data is never stored on our servers. Everything happens on your device.",
+    title: "セキュア",
+    description: "あなたのデータが当社のサーバーに保存されることはありません。すべてはデバイス上で完結します。",
     icon: <IoShieldCheckmark size={20} />,
     color: "gray",
   },
@@ -93,7 +93,7 @@ export const Features = () => {
             bg="blue.0"
             size="lg"
           >
-            Features
+            機能
           </Badge>
         </Center>
         <Title
@@ -109,7 +109,7 @@ export const Features = () => {
           mb={15}
           style={{ textAlign: "center" }}
         >
-          Explore Your Data Visually
+          データを視覚的に探索
         </Title>
         <Title
           order={3}
@@ -122,7 +122,7 @@ export const Features = () => {
           fz={{ base: 16, sm: 18 }}
           w={{ base: "100%", xs: "80%", sm: "60%", md: "40%" }}
         >
-          All in one tool for JSON, YAML, CSV, XML, and TOML.
+          JSON、YAML、CSV、XML、TOMLのためのオールインワンツール。
         </Title>
 
         <SimpleGrid

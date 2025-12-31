@@ -89,11 +89,10 @@ export const Section2 = () => {
             order={2}
             c="gray.9"
           >
-            Don&apos;t waste time with JSON formatters
+            JSONフォーマッタで時間を無駄にしないで
           </Title>
           <Text my="md" c="gray.7" fz={16} maw={510}>
-            Format JSON and transform into a readable graph in seconds. JSON Crack is an open-source
-            online tool that helps you visualize and understand data.
+            JSONを数秒で整形し、読みやすいグラフに変換します。JSON Crackは、データの可視化と理解を助けるオープンソースのオンラインツールです。
           </Text>
           <List
             fz={{
@@ -106,10 +105,10 @@ export const Section2 = () => {
             icon={<LuBadgeCheck size="20" />}
           >
             <SimpleGrid w="fit-content" cols={2}>
-              <List.Item>VS Code Extension</List.Item>
-              <List.Item>Open-source</List.Item>
-              <List.Item>JSON Validator/Formatter</List.Item>
-              <List.Item>Export Image</List.Item>
+              <List.Item>VS Code 拡張機能</List.Item>
+              <List.Item>オープンソース</List.Item>
+              <List.Item>JSONバリデータ/フォーマッタ</List.Item>
+              <List.Item>画像のエクスポート</List.Item>
             </SimpleGrid>
           </List>
           <Button
@@ -121,7 +120,7 @@ export const Section2 = () => {
             w="fit-content"
             mt="sm"
           >
-            Open JSON Editor
+            JSONエディタを開く
           </Button>
         </Stack>
         <StyledDottedContainer>

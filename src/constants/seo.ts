@@ -1,9 +1,9 @@
 import type { NextSeoProps } from "next-seo";
 
 export const SEO: NextSeoProps = {
-  title: "JSON Crack | Online JSON Viewer - Transform your data into interactive graphs",
+  title: "JSON Crack | オンラインJSONビューア - データをインタラクティブなグラフに変換",
   description:
-    "JSON Crack Editor is a tool for visualizing into graphs, analyzing, editing, formatting, querying, transforming and validating JSON, CSV, YAML, XML, and more.",
+    "JSON Crack Editorは、JSON、CSV、YAML、XMLなどのデータをグラフとして可視化、分析、編集、整形、クエリ実行、変換、検証するためのツールです。",
   themeColor: "#36393E",
   openGraph: {
     type: "website",

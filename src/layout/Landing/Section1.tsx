@@ -57,7 +57,7 @@ export const Section1 = () => {
         mx="auto"
         mb="15"
       >
-        Make working with JSON easy
+        JSONの作業を簡単に
       </Title>
       <Title
         order={3}
@@ -70,8 +70,7 @@ export const Section1 = () => {
         fz={{ base: 16, sm: 18 }}
         w={{ base: "100%", md: "600" }}
       >
-        JSON Crack eliminates the chaos of raw, messy data, making the complex appear simple and
-        easy to understand.
+        JSON Crackは、複雑で乱雑なデータの混沌を解消し、複雑なものをシンプルで理解しやすく表示します。
       </Title>
       <SimpleGrid
         cols={{
@@ -93,10 +92,10 @@ export const Section1 = () => {
             <Image src="/assets/step1-visual.png" pos="relative" w="100%" alt="upload" />
           </StyledImageWrapper>
           <Title ta="center" c="black" order={3}>
-            Upload your data
+            データをアップロード
           </Title>
           <Text ta="center" c="gray.7">
-            Upload your JSON file, URL, or type your data directly into our easy-to-use text editor.
+            JSONファイルのアップロード、URLの入力、または使いやすいテキストエディタへの直接入力が可能です。
           </Text>
         </Stack>
         <Stack
@@ -113,11 +112,10 @@ export const Section1 = () => {
             <Image src="/assets/step2-visual.png" pos="relative" w="100%" alt="visualize" />
           </StyledImageWrapper>
           <Title ta="center" c="black" order={3}>
-            Visualize your JSON
+            JSONを可視化
           </Title>
           <Text ta="center" c="gray.7">
-            Your data will automatically be turned into a visual tree graph so you can quickly
-            understand your data at a glance.
+            データは自動的にツリーグ ラフに変換され、一目で構造を理解できます。
           </Text>
         </Stack>
         <Stack
@@ -134,11 +132,10 @@ export const Section1 = () => {
             <Image src="/assets/step3-visual.png" pos="relative" w="100%" alt="export image" />
           </StyledImageWrapper>
           <Title ta="center" c="black" order={3}>
-            Export to image
+            画像としてエクスポート
           </Title>
           <Text ta="center" c="gray.7">
-            Once you&apos;re satisfied, you can export an image of your graph as PNG, JPEG, or SVG
-            and share with others.
+            満足がいったら、グラフをPNG、JPEG、またはSVGとしてエクスポートし、共有できます。
           </Text>
         </Stack>
       </SimpleGrid>

@@ -20,7 +20,7 @@ export const Footer = () => {
         <Flex gap={60} visibleFrom="sm">
           <Stack gap="xs">
             <Text fz="sm" c="white">
-              Product
+              プロダクト
             </Text>
             <Anchor
               fz="sm"
@@ -37,7 +37,7 @@ export const Footer = () => {
               target="_blank"
               rel="noopener"
             >
-              Open Source
+              オープンソース
             </Anchor>
             <Anchor
               href="https://todiagram.com?utm_source=jsoncrack&utm_medium=footer"
@@ -50,18 +50,18 @@ export const Footer = () => {
           </Stack>
           <Stack gap="xs">
             <Text fz="sm" c="white">
-              Resources
+              リソース
             </Text>
             <Anchor component={Link} prefetch={false} fz="sm" c="gray.5" href="/#faq">
               FAQ
             </Anchor>
             <Anchor component={Link} prefetch={false} fz="sm" c="gray.5" href="/docs">
-              Docs
+              ドキュメント
             </Anchor>
           </Stack>
           <Stack gap="xs">
             <Text fz="sm" c="white">
-              Social
+              ソーシャル
             </Text>
             <Flex gap="xs">
               <Anchor
@@ -109,12 +109,12 @@ export const Footer = () => {
         </Text>
         <Anchor component={Link} prefetch={false} fz="sm" c="dimmed" href="/legal/terms">
           <Text fz="sm" c="dimmed">
-            Terms
+            利用規約
           </Text>
         </Anchor>
         <Anchor component={Link} prefetch={false} fz="sm" c="dimmed" href="/legal/privacy">
           <Text fz="sm" c="dimmed">
-            Privacy
+            プライバシー
           </Text>
         </Anchor>
       </Flex>
