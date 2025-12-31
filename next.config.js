@@ -14,9 +14,9 @@ const config = {
   productionBrowserSourceMaps: true,
   ...(basePath
     ? {
-        basePath,
-        assetPrefix: basePath,
-      }
+      basePath,
+      assetPrefix: basePath,
+    }
     : {}),
   compiler: {
     styledComponents: true,
