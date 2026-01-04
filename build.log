@@ -1,0 +1,79 @@
+
+> json-crack@0.0.0 build
+> rm -rf docs && next build && mv out docs
+
+  ▲ Next.js 14.2.28
+  - Environments: .env
+
+   Linting and checking validity of types ...
+
+./src/features/editor/TextEditor.tsx
+49:6  Warning: React Hook React.useEffect has a missing dependency: 'monaco?.languages.json'. Either include it or remove the dependency array.  react-hooks/exhaustive-deps
+49:19  Warning: React Hook React.useEffect has a complex expression in the dependency array. Extract it to a separate variable so it can be statically checked.  react-hooks/exhaustive-deps
+
+./src/pages/_document.tsx
+42:11  Warning: Prefer `next/script` component when using the inline script for Google Analytics. See: https://nextjs.org/docs/messages/next-script-for-ga  @next/next/next-script-for-ga
+
+info  - Need to disable some ESLint rules? Learn more here: https://nextjs.org/docs/basic-features/eslint#disabling-rules
+   Creating an optimized production build ...
+ ✓ Compiled successfully
+   Collecting page data ...
+   Generating static pages (0/37) ...
+   Generating static pages (9/37) 
+   Generating static pages (18/37) 
+   Generating static pages (27/37) 
+Error: @mantine/core: MantineProvider was not found in component tree, make sure you have it in your app
+    at useMantineTheme (file:///Users/yuichiyazaki/Documents/GitHubRepository/_app_fork/jsoncrack.com/node_modules/.pnpm/@mantine+core@7.17.8_@mantine+hooks@7.17.8_react@18.3.1__@types+react@18.2.51_react-dom@18.3._6rmdyf3kgscri4uakhez3vjare/node_modules/@mantine/core/esm/core/MantineProvider/MantineThemeProvider/MantineThemeProvider.mjs:12:11)
+    at useProps (file:///Users/yuichiyazaki/Documents/GitHubRepository/_app_fork/jsoncrack.com/node_modules/.pnpm/@mantine+core@7.17.8_@mantine+hooks@7.17.8_react@18.3.1__@types+react@18.2.51_react-dom@18.3._6rmdyf3kgscri4uakhez3vjare/node_modules/@mantine/core/esm/core/MantineProvider/use-props/use-props.mjs:9:17)
+    at file:///Users/yuichiyazaki/Documents/GitHubRepository/_app_fork/jsoncrack.com/node_modules/.pnpm/@mantine+code-highlight@7.17.8_@mantine+core@7.17.8_@mantine+hooks@7.17.8_react@18.3.1__@type_a5wizlcnncin5cxt2j6oggfoui/node_modules/@mantine/code-highlight/esm/CodeHighlight.mjs:18:17
+    at Wc (/Users/yuichiyazaki/Documents/GitHubRepository/_app_fork/jsoncrack.com/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:68:44)
+    at Zc (/Users/yuichiyazaki/Documents/GitHubRepository/_app_fork/jsoncrack.com/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:73:362)
+    at Z (/Users/yuichiyazaki/Documents/GitHubRepository/_app_fork/jsoncrack.com/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:76:89)
+    at $c (/Users/yuichiyazaki/Documents/GitHubRepository/_app_fork/jsoncrack.com/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:78:98)
+    at bd (/Users/yuichiyazaki/Documents/GitHubRepository/_app_fork/jsoncrack.com/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:77:404)
+    at Z (/Users/yuichiyazaki/Documents/GitHubRepository/_app_fork/jsoncrack.com/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:76:217)
+    at $c (/Users/yuichiyazaki/Documents/GitHubRepository/_app_fork/jsoncrack.com/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:78:98)
+
+Error occurred prerendering page "/docs". Read more: https://nextjs.org/docs/messages/prerender-error
+
+Error: @mantine/core: MantineProvider was not found in component tree, make sure you have it in your app
+    at useMantineTheme (file:///Users/yuichiyazaki/Documents/GitHubRepository/_app_fork/jsoncrack.com/node_modules/.pnpm/@mantine+core@7.17.8_@mantine+hooks@7.17.8_react@18.3.1__@types+react@18.2.51_react-dom@18.3._6rmdyf3kgscri4uakhez3vjare/node_modules/@mantine/core/esm/core/MantineProvider/MantineThemeProvider/MantineThemeProvider.mjs:12:11)
+    at useProps (file:///Users/yuichiyazaki/Documents/GitHubRepository/_app_fork/jsoncrack.com/node_modules/.pnpm/@mantine+core@7.17.8_@mantine+hooks@7.17.8_react@18.3.1__@types+react@18.2.51_react-dom@18.3._6rmdyf3kgscri4uakhez3vjare/node_modules/@mantine/core/esm/core/MantineProvider/use-props/use-props.mjs:9:17)
+    at file:///Users/yuichiyazaki/Documents/GitHubRepository/_app_fork/jsoncrack.com/node_modules/.pnpm/@mantine+code-highlight@7.17.8_@mantine+core@7.17.8_@mantine+hooks@7.17.8_react@18.3.1__@type_a5wizlcnncin5cxt2j6oggfoui/node_modules/@mantine/code-highlight/esm/CodeHighlight.mjs:18:17
+    at Wc (/Users/yuichiyazaki/Documents/GitHubRepository/_app_fork/jsoncrack.com/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:68:44)
+    at Zc (/Users/yuichiyazaki/Documents/GitHubRepository/_app_fork/jsoncrack.com/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:73:362)
+    at Z (/Users/yuichiyazaki/Documents/GitHubRepository/_app_fork/jsoncrack.com/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:76:89)
+    at $c (/Users/yuichiyazaki/Documents/GitHubRepository/_app_fork/jsoncrack.com/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:78:98)
+    at bd (/Users/yuichiyazaki/Documents/GitHubRepository/_app_fork/jsoncrack.com/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:77:404)
+    at Z (/Users/yuichiyazaki/Documents/GitHubRepository/_app_fork/jsoncrack.com/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:76:217)
+    at $c (/Users/yuichiyazaki/Documents/GitHubRepository/_app_fork/jsoncrack.com/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:78:98)
+Error: @mantine/core: MantineProvider was not found in component tree, make sure you have it in your app
+    at useMantineTheme (file:///Users/yuichiyazaki/Documents/GitHubRepository/_app_fork/jsoncrack.com/node_modules/.pnpm/@mantine+core@7.17.8_@mantine+hooks@7.17.8_react@18.3.1__@types+react@18.2.51_react-dom@18.3._6rmdyf3kgscri4uakhez3vjare/node_modules/@mantine/core/esm/core/MantineProvider/MantineThemeProvider/MantineThemeProvider.mjs:12:11)
+    at useProps (file:///Users/yuichiyazaki/Documents/GitHubRepository/_app_fork/jsoncrack.com/node_modules/.pnpm/@mantine+core@7.17.8_@mantine+hooks@7.17.8_react@18.3.1__@types+react@18.2.51_react-dom@18.3._6rmdyf3kgscri4uakhez3vjare/node_modules/@mantine/core/esm/core/MantineProvider/use-props/use-props.mjs:9:17)
+    at file:///Users/yuichiyazaki/Documents/GitHubRepository/_app_fork/jsoncrack.com/node_modules/.pnpm/@mantine+dropzone@7.17.8_@mantine+core@7.17.8_@mantine+hooks@7.17.8_react@18.3.1__@types+reac_qtykeqv3icxfxcz2q6yw4lktc4/node_modules/@mantine/dropzone/esm/DropzoneFullScreen.mjs:21:17
+    at Wc (/Users/yuichiyazaki/Documents/GitHubRepository/_app_fork/jsoncrack.com/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:68:44)
+    at Zc (/Users/yuichiyazaki/Documents/GitHubRepository/_app_fork/jsoncrack.com/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:73:362)
+    at Z (/Users/yuichiyazaki/Documents/GitHubRepository/_app_fork/jsoncrack.com/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:76:89)
+    at Zc (/Users/yuichiyazaki/Documents/GitHubRepository/_app_fork/jsoncrack.com/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:70:481)
+    at Z (/Users/yuichiyazaki/Documents/GitHubRepository/_app_fork/jsoncrack.com/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:76:89)
+    at $c (/Users/yuichiyazaki/Documents/GitHubRepository/_app_fork/jsoncrack.com/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:78:98)
+    at bd (/Users/yuichiyazaki/Documents/GitHubRepository/_app_fork/jsoncrack.com/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:77:404)
+
+Error occurred prerendering page "/editor". Read more: https://nextjs.org/docs/messages/prerender-error
+
+Error: @mantine/core: MantineProvider was not found in component tree, make sure you have it in your app
+    at useMantineTheme (file:///Users/yuichiyazaki/Documents/GitHubRepository/_app_fork/jsoncrack.com/node_modules/.pnpm/@mantine+core@7.17.8_@mantine+hooks@7.17.8_react@18.3.1__@types+react@18.2.51_react-dom@18.3._6rmdyf3kgscri4uakhez3vjare/node_modules/@mantine/core/esm/core/MantineProvider/MantineThemeProvider/MantineThemeProvider.mjs:12:11)
+    at useProps (file:///Users/yuichiyazaki/Documents/GitHubRepository/_app_fork/jsoncrack.com/node_modules/.pnpm/@mantine+core@7.17.8_@mantine+hooks@7.17.8_react@18.3.1__@types+react@18.2.51_react-dom@18.3._6rmdyf3kgscri4uakhez3vjare/node_modules/@mantine/core/esm/core/MantineProvider/use-props/use-props.mjs:9:17)
+    at file:///Users/yuichiyazaki/Documents/GitHubRepository/_app_fork/jsoncrack.com/node_modules/.pnpm/@mantine+dropzone@7.17.8_@mantine+core@7.17.8_@mantine+hooks@7.17.8_react@18.3.1__@types+reac_qtykeqv3icxfxcz2q6yw4lktc4/node_modules/@mantine/dropzone/esm/DropzoneFullScreen.mjs:21:17
+    at Wc (/Users/yuichiyazaki/Documents/GitHubRepository/_app_fork/jsoncrack.com/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:68:44)
+    at Zc (/Users/yuichiyazaki/Documents/GitHubRepository/_app_fork/jsoncrack.com/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:73:362)
+    at Z (/Users/yuichiyazaki/Documents/GitHubRepository/_app_fork/jsoncrack.com/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:76:89)
+    at Zc (/Users/yuichiyazaki/Documents/GitHubRepository/_app_fork/jsoncrack.com/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:70:481)
+    at Z (/Users/yuichiyazaki/Documents/GitHubRepository/_app_fork/jsoncrack.com/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:76:89)
+    at $c (/Users/yuichiyazaki/Documents/GitHubRepository/_app_fork/jsoncrack.com/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:78:98)
+    at bd (/Users/yuichiyazaki/Documents/GitHubRepository/_app_fork/jsoncrack.com/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:77:404)
+ ✓ Generating static pages (37/37)
+
+> Export encountered errors on following paths:
+	/docs
+	/editor
