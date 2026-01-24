@@ -36,8 +36,8 @@ class MyDocument extends Document {
         <Head>
           <ColorSchemeScript />
           {/* Supabase & Auth Header */}
-          <script src="/supabase.js" defer />
-          <script src="/dataviz-auth-client.js" defer />
+          <script src="/supabase.js" />
+          <script src="/dataviz-auth-client.js" />
           {/* Google tag (gtag.js) */}
           <script async src="https://www.googletagmanager.com/gtag/js?id=G-RY81ZBHZ0H" />
           <script
