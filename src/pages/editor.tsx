@@ -33,11 +33,12 @@ const queryClient = new QueryClient({
 export const StyledPageWrapper = styled.div`
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: calc(100vh - 48px);
+  margin-top: 48px;
   width: 100%;
 
   @media only screen and (max-width: 320px) {
-    height: 100vh;
+    height: calc(100vh - 48px);
   }
 `;
 
