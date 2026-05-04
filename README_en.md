@@ -112,6 +112,30 @@ Here is what you need to be able to run JSON Crack.
    # Running on http://localhost:3000/
    ```
 
+5. Build the static export
+
+   ```sh
+   pnpm build
+
+   # Output is written to ./out
+   ```
+
+### Netlify
+
+Netlify build and local dev behavior is defined in [`netlify.toml`](./netlify.toml).
+
+```sh
+netlify dev
+```
+
+Deployment is expected to happen through Netlify's GitHub integration. Connect this repository in Netlify once, and future pushes to GitHub will trigger Netlify deploys.
+
+If you want to connect this local checkout to an existing Netlify site for CLI usage, run:
+
+```sh
+netlify link
+```
+
 ### Docker
 
 🐳 A [`Dockerfile`](Dockerfile) is provided in the root of the repository.

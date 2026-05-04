@@ -37,7 +37,7 @@ const config = {
 const configExport = () => {
   if (process.env.ANALYZE === "true") return withBundleAnalyzer(config);
 
-  if (process.env.GITHUB_REPOSITORY === "AykutSarac/jsoncrack.com") {
+  if (process.env.SENTRY_AUTH_TOKEN) {
     return withSentryConfig(
       config,
       {
