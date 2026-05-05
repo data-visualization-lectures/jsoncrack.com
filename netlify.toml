@@ -5,6 +5,12 @@
 [build.environment]
   NODE_VERSION = "20"
 
+[[redirects]]
+  from = "https://jsoncrack.dataviz.jp/*"
+  to = "https://jsoncrack.dataprep.jp/:splat"
+  status = 301
+  force = true
+
 [dev]
   command = "pnpm dev"
   targetPort = 3000
